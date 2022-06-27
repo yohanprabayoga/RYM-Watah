@@ -3,7 +3,6 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:pumpmonitoring/ui/widget/bar_chart_widget.dart';
-
 import 'indicator.dart';
 
 class DashboardGraphWidget extends StatefulWidget {
@@ -97,6 +96,7 @@ class _DashboardGraphWidgetState extends State<DashboardGraphWidget> {
                                   children: [
                                     const Text('humidity : '),
                                     Text(humandityLabel),
+                                    const Text('%'),
                                   ],
                                 ),
                               ),
@@ -106,6 +106,7 @@ class _DashboardGraphWidgetState extends State<DashboardGraphWidget> {
                                   children: [
                                     const Text('moisture : '),
                                     Text(moistureLabel),
+                                    const Text('%')
                                   ],
                                 ),
                               ),
@@ -115,6 +116,7 @@ class _DashboardGraphWidgetState extends State<DashboardGraphWidget> {
                                   children: [
                                     const Text('temperature : '),
                                     Text(temperatureLabel),
+                                    const Text('C')
                                   ],
                                 ),
                               ),

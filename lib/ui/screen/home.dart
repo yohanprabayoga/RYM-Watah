@@ -60,10 +60,6 @@ class HomePage extends StatelessWidget {
                   user.email,
                   style: const TextStyle(color: Colors.white),
                 ),
-                // Text(
-                //   user.uid,
-                //   style: const TextStyle(color: Colors.white),
-                // ),
               ],
             )
           ],

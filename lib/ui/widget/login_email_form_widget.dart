@@ -147,7 +147,6 @@ class _EmailSignInFormState extends State<EmailSignInForm> {
       children: [
         ElevatedButton(
           onPressed: model.canSubmit ? _submit : null,
-          // ignore: sort_child_properties_last
           child: Text(
             model.primaryButtonText,
             style: Theme.of(context)
